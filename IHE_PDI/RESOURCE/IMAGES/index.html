@@ -1366,7 +1366,7 @@ arrPicName[z][i][j++]= "./../../000/63862272225292796329_1.JPG";
 	{
 		cineState=0;
 		window.clearTimeout(my_timer);
-		document.getElementById('cineImage'+curStudy+'s'+cineSeries).src = "IHE_PDI/RESOURCE/IMAGES/CINEPLAY.JPG";
+		document.getElementById('cineImage'+curStudy+'s'+cineSeries).src = "CINEPLAY.JPG";
 		document.getElementById('cineImage'+curStudy+'s'+cineSeries).title = "Lejátszás";
 	}
 	function startCine(seriesNum)
@@ -1909,7 +1909,7 @@ var r;
 										document.write("<td width='18' rowspan='"+(Math.ceil(stdSeriesImgNum / screenRes)+1)+"'  nowrap >");
 										document.write("<table width='18' border='0' cellspacing='0' cellpadding='0'>");
 										document.write("<tr><td height='16'></td></tr>");
-										document.write("<tr><td height='26' align='center'><a href=\"javascript:cine("+i+")\"><img title=\"Lejátszás\" id='cineImage" + stdNum+"s"+i + "' border='0' src='IHE_PDI/RESOURCE/IMAGES/CINEPLAY.JPG'> </a></td></tr>");
+										document.write("<tr><td height='26' align='center'><a href=\"javascript:cine("+i+")\"><img title=\"Lejátszás\" id='cineImage" + stdNum+"s"+i + "' border='0' src='CINEPLAY.JPG'> </a></td></tr>");
 										imgShow=false;
 
 										for (z=0;z<Math.ceil(stdSeriesImgNum / screenRes)-1 ;z++){
@@ -1925,7 +1925,7 @@ var r;
 										document.write("</td>");
 									}
 									else
-										document.write("<td width='18' rowspan='2' nowrap>&nbsp;<a href=\"javascript:cine("+i+")\"><img title=\"Lejátszás\" id='cineImage" + stdNum+"s"+i + "' border='0' src=\"IHE_PDI/RESOURCE/IMAGES/CINEPLAY.JPG\"> </a></td>");
+										document.write("<td width='18' rowspan='2' nowrap>&nbsp;<a href=\"javascript:cine("+i+")\"><img title=\"Lejátszás\" id='cineImage" + stdNum+"s"+i + "' border='0' src=\"CINEPLAY.JPG\"> </a></td>");
 									document.write("<td height='16' valign='middle' nowrap>");
 
 									if (!isSummary && (showMPT || showLTBX) && nav)
